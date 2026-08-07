@@ -1,6 +1,6 @@
 # Holo Tab
 
-Holo tab is a simple new tab project made for Stardance's "Give your website a pulse" mission. That is connected to NASA's free api. 
+Holo tab is a simple new tab project made for Stardance's "Give your website a pulse" mission. It is connected to NASA's free API to display the Astronomy Picture of the Day directly on your new tab page. 
 
 [Website](https://rasmusstenlund.github.io/holo-tab/) | [NASA API](https://api.nasa.gov/)
 
@@ -10,7 +10,7 @@ Holo Tab features:
 
 <img src = 'assets/holotab-date-and-time.png' alt = 'date & time display' width = 300px>
 
-- NASA's APOD (Astronomic Picture Of the Day) alongside its title, date and explanation by fetching from their API. 
+- NASA's APOD (Astronomic Picture of the Day) alongside its title, date and explanation by fetching from their API. 
 
 <img src = 'assets/holotab-APOD-example.png' alt = 'NASA APOD display example' width = 500px>
 
