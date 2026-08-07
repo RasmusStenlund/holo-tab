@@ -8,15 +8,18 @@
   </head>
   <body>
     <div id="app">
+      <h1 id = "current-date"></h1>
       <div id = "filtering">
         <input id = "date-picker" type = "date">
         <button id = "confirm-date">Show</button>
       </div>
       <div id = "nasa">
         <p id = "nasa-loading">Loading ...</p>
-        <div id = "nasa-title"></div>
-        <div id = "nasa-image"></div>
-        <div id = "nasa-explanation"></div>
+        <div id = "nasa-title" class = "hidden"></div>
+        <div id = "nasa-date" class = "hidden"></div>
+        <div id = "nasa-image" class = "hidden"></div>
+        <div id = "nasa-explanation" class = "hidden"></div>
+        <div id = "nasa-error" class = "hidden"></div>
       </div>
     </div>
     <script type="module" src="/src/main.js"></script>
