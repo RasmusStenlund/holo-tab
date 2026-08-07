@@ -15,6 +15,7 @@ h2, h3, h4, p {
 
 h1 {
     font-size: 2.5rem;
+    padding: 10px;
 }
 
 #app {
@@ -62,4 +63,26 @@ h1 {
     height: fit-content;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#date-picker:hover {
+    cursor: pointer;
+}
+
+#confirm-date {
+    color: inherit;
+    font-family: inherit;
+    background-color: #334268;
+    border: 2px solid #293657;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#confirm-date:hover {
+    cursor: pointer;
+    background-color: #37466d;
 }
