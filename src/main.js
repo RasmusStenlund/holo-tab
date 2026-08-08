@@ -90,7 +90,7 @@ function get_apod(date = '') {
   })
   .catch(err => {
     loading.classList.add('hidden');
-    error_container.innerHTML = `<p>Error: ${err.message}</p>`
+    error_container.innerHTML = `<p>NASA responded with ${err.message}</p>`
     error_container.classList.remove('hidden')
   })
 }
