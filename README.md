@@ -17,3 +17,6 @@ Holo Tab features:
 - A date input feature where you can view previous APODs
 
 <img src = 'assets/holotab-date-picker.png' alt = 'Date picker' width = 300px>
+
+## Loading times and errors
+NASAs servers are always busy, and that unflrtunately means there will probably be long loading times or an error starting with 5XX. These are unfixable from the frontend.
